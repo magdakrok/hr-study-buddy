@@ -1,8 +1,8 @@
 {
 
     "singleQuote": true,
-
     "folders": [],
     "settings": {},
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "endOfLine": "auto"
 }
