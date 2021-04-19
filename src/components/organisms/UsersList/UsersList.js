@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { UserShape } from 'types';
 import UsersListItem from 'components/molecules/UsersListItem/UsersListItem';
-import { StyledList, StyledTitle } from './UsersList.styles';
+import { StyledList, Title } from './UsersList.styles';
 
 const UsersList = ({ users }) => {
   return (
     <>
-      <StyledTitle>Students list</StyledTitle>
+      <Title>Students list</Title>
       <StyledList>
         {users.map((userData) => (
           <UsersListItem key={userData.name} userData={userData} />
