@@ -31,6 +31,7 @@ const FormField = ({
         type={type}
         value={value}
         onChange={onChange}
+        data-testid={label}
       ></Input>
     </Wrapper>
   );
